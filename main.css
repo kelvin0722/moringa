@@ -1,0 +1,34 @@
+body {
+    background-color: grey;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: sandybrown;
+    height: 20vh;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    height: 100vh;
+}
+.header--big{
+
+}
+.side-menu{
+    background-color: cyan;
+    height:  -moz-available;          /* WebKit-based browsers will ignore this. */
+    height:  -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    height:  fill-available;
+    width: 300px;
+
+}
+ul {
+    list-style-type: none;
+  }
+.mainContainer{
+    margin-left: 100px;
+}

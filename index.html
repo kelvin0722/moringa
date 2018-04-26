@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <script src="app.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+            <h1 class="header--big">Ping Pong</h1>
+        </header>
+        <div class="container">
+        <div class="side-menu">
+            <ul>
+                <li><strong>About Ping Pong</strong></li>
+                <li>Created By</li>
+                <li>Github Username</li>
+                <li>Created By</li>
+                <li>Level 2 test for</li>
+            </ul>
+        </div>
+        <div class="mainContainer">
+            <div class="contentSection">
+                <h2 class="header--small">Lets play!</h2>
+                <span><strong>Rules:</strong></span>
+                <div><span>Ping pong will count upto to your number from 1 with the following exceptions:</span>
+                <ul>
+                    <li>1. Numbers divisible by 3 become "ping"</li>
+                    <li>2. Numbers divisible by 5 become "pong"</li>
+                    <li>3. Numbers divisible by both 3 and 5 become "pingpong"</li>
+                </ul>
+                </div>
+                <div class="userInputSection">
+                    <span><strong>Enter your number:</strong></span>
+                    <input type="text" id="num" />
+                    <button onclick="handleClick()">Ping Pong</button>
+                </div>
+                <div id="results">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
